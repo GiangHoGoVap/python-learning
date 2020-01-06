@@ -1,3 +1,4 @@
+#Python program to print duplicates from a list of integers
 def Repeat(x): 
     _size = len(x) 
     repeated = [] 
