@@ -1,3 +1,4 @@
+#Python program to check if the number has perfect square root or not
 import math
 x = int(input("Enter a number to check square root: "))
 root = math.sqrt(x)
