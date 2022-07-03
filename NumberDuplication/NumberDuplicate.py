@@ -1,4 +1,4 @@
-#Python program to print duplicates from a list of integers
+# Python program to print duplicates from a list of integers
 def Repeat(x): 
     _size = len(x) 
     repeated = [] 
@@ -9,11 +9,11 @@ def Repeat(x):
                 repeated.append(x[i]) 
     return repeated
 
-list1=[]
-number=int(input("Enter list length: "))
-print("Enter numbers")
+list1 = []
+number = int(input("Enter list length: "))
+print("Enter numbers: ")
 for i in range(number):
-    data=int(input())
+    data = int(input())
     list1.append(data)
 
 print("The number duplicates: ",Repeat(list1))
